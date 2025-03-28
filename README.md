@@ -1,29 +1,49 @@
 # HLK-MNT-V2
 
+Welcome to the HLK-MNT-V2 GitHub repository!
+
+The HLK-MNT-V2 is a universal Hi-Link power supply board designed to support various Hi-Link module footprints, including PMxx, 5Mxx, 10Mxx, and 20Mxx series. With dimensions of 126.19 mm x 48.2 mm and supporting up to 6A output on the DC side, it's a versatile and robust solution for embedded systems requiring stable and reliable power.
+
 ![2D_PCB_HLK-MNT_V2 0_2025-03-28](https://github.com/user-attachments/assets/b2493a39-bc99-402b-a4dc-ad53b098cd0a)
 
 
 ![2D_PCB_HLK-MNT_V2 0_2025-03-28 (1)](https://github.com/user-attachments/assets/25705cee-2a43-4f97-be2d-c16664976052)
 
+## Key Features
 
-The HLK-MNT-V2 board is a universal Hi-Link power supply board designed to accommodate various module footprints, including PMxx, 5Mxx, 10Mxx, and 20Mxx series. Measuring 126.19 mm by 48.2 mm and engineered to support up to 6A output on the DC side, it serves as a versatile and powerful solution for embedded applications requiring stable and reliable power.
+- **Universal Compatibility:** Accepts footprints of PMxx, 5Mxx, 10Mxx, and 20Mxx modules.
+- **High Current Capacity:** Supports DC output currents up to 6A.
+- **Comprehensive Safety Enhancements:**
+  - Fuse holder
+  - Metal Oxide Varistor (MOV)
+  - Littelfuse Transient Voltage Suppression (TVS) diode
+  - Safety capacitor
+- **Advanced Filtering:**
+  - EMI filter on AC input
+  - Panasonic low ESR capacitor on DC output
+  - Three additional Samsung filtering capacitors
+- **Flexible Connectivity:**
+  - Pads compatible with 5.08mm pitch screw terminals for both AC input and DC output
+  - Choice between JST VH connector or screw terminals for DC output
+- **Switch Options:**
+  - AC-side pads that can be bridged directly or fitted with 5.08mm pitch screw terminals and a switch
+- **Noise Reduction and Heat Management:** Dedicated ground plane with stitching vias on the DC side.
+- **Mounting Convenience:** M3 mounting holes for secure installation.
+- **Ease of Monitoring:** Clear power LED indicator.
 
-We've significantly enhanced the original HLK-MNT design with several critical improvements in version 2:
+## Repository Structure
 
-What's New in HLK-MNT v2:
+HLK-MNT-V2/
+├── docs/               (Documentation and datasheets)
+├── hardware/           (Schematics, PCB files, Gerber files, BOM)
+├── examples/           (Example usage and wiring guides)
+├── LICENSE             (License details)
+└── README.md           (This file)
 
-Improved Safety: Added fuse holder, metal oxide varistor (MOV), Littelfuse transient voltage suppression (TVS) diode, and a safety capacitor, providing comprehensive protection on the AC input side.
+## License
 
-Enhanced Filtering: Integrated an EMI filter on the AC input side and included a total of four filtering capacitors on the DC output—a premium Panasonic low ESR capacitor accompanied by three Samsung capacitors—ensuring stable and noise-free power.
+This project is proprietary. For licensing details, please contact the repository owner directly.
 
-Flexible Connectivity: The AC input and DC output offer versatile connection options with pads designed to accommodate 5.08mm pitch screw terminals. The DC output allows choosing between using the convenient JST VH connector or screw terminals.
+## Contributing
 
-Switch Options: The AC-side switch is now flexible, allowing you to either bridge the pads directly or install 5.08mm pitch screw terminals with a switch according to your requirements.
-
-Enhanced Heat and Noise Management: Added a dedicated ground plane on the DC side with stitching vias to minimize electrical noise and enhance heat dissipation.
-
-Mounting Convenience: Equipped with M3 mounting holes for secure and easy installation.
-
-Ease of Use: Included a clear power LED indicator, making operation status easy to monitor.
-
-These upgrades make the HLK-MNT v2 board a robust, secure, and convenient choice for diverse embedded power supply requirements.
+Contributions and suggestions for improvements are welcome. Please open an issue or submit a pull request.
