@@ -1,5 +1,11 @@
 # HLK-MNT-V2
 
+![2D_PCB_HLK-MNT_V2 0_2025-03-28](https://github.com/user-attachments/assets/b2493a39-bc99-402b-a4dc-ad53b098cd0a)
+
+
+![2D_PCB_HLK-MNT_V2 0_2025-03-28 (1)](https://github.com/user-attachments/assets/25705cee-2a43-4f97-be2d-c16664976052)
+
+
 The HLK-MNT-V2 board is a universal Hi-Link power supply board designed to accommodate various module footprints, including PMxx, 5Mxx, 10Mxx, and 20Mxx series. Measuring 126.19 mm by 48.2 mm and engineered to support up to 6A output on the DC side, it serves as a versatile and powerful solution for embedded applications requiring stable and reliable power.
 
 We've significantly enhanced the original HLK-MNT design with several critical improvements in version 2:
